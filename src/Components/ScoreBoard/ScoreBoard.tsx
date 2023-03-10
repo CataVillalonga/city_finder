@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { scoreBoardProps} from "../../utils"
 import './scoreBoard.css'
 const ScoreBoard = ({score, cities, currentCityIndex, answerResult, distanceBetweenPins}:scoreBoardProps) => {

@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import Header from './Components/Header/Header';
 import Map from './Components/Map/Map';
+import FinalScore from './Components/FinalScore/FinalScore';
 import ScoreBoard from './Components/ScoreBoard/ScoreBoard';
 import { citiesData } from './data';
 import { IAnswers, ICoords } from './utils';
-import './App.css';
-import FinalScore from './Components/FinalScore/FinalScore';
 
 const App = () => {
   const {cities} = citiesData
@@ -19,7 +18,7 @@ const App = () => {
     const rad = (x:number) => {
       return x * Math.PI / 180;
     };  
-    const R = 6378137; // Earth’s radius in meter
+    const R = 6378137; // Earth’s radius in meters
     const dLat = rad(p2.lat - p1.lat);
     const dLong = rad(p2.lng - p1.lng);
     const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
@@ -50,6 +49,7 @@ const App = () => {
       }])
     }
   }
+  
   return (
     <div className="App">
       {(score > 0 && currentCityIndex < cities.length-1)?

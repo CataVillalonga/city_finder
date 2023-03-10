@@ -62,22 +62,18 @@ const Map = ({cities, currentCityIndex, scoreHandler}:MapProps) => {
         options={{ mapId: "368ca3275817e3d8" ,streetViewControl: false, mapTypeControl: false}}
         onClick={answerPositioner}
       >
-        { /* Child components, such as markers, info windows, etc. */ }
         {(answerPosition !== null && realPosition !==null)?
           <>
             <Marker
-            // onLoad={onLoad}
             position={answerPosition}
             icon={{
               url: ("http://maps.google.com/mapfiles/ms/icons/pink-dot.png")
           }}
           />
           <Marker
-            // onLoad={onLoad}
             position={realPosition}
           />
           <Polyline
-            // onLoad={onLoad}
             path={[
               {lat: answerPosition.lat, lng: answerPosition.lng},
               {lat: realPosition.lat, lng: realPosition.lng}

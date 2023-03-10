@@ -3,15 +3,14 @@ import { FinalScoreProps } from '../../utils'
 
 const FinalScore = ({answers, setCurrentCityIndex,setScore,setAnswerResult, setDistanceBetweenPins}:FinalScoreProps) => {
   const finalScore = answers.filter(answer => answer.answer === true)!
-  console.log(finalScore)
-  console.log(finalScore.length)
+
   const reStartGame = () => {
-    console.log('game restarted')
     setCurrentCityIndex(0)
     setScore(1500)
     setAnswerResult('')
     setDistanceBetweenPins(null)
   }
+  
   return (
     <div className="finalScore-mainContainer">
       <section className='finalScore-section'>
