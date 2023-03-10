@@ -1,0 +1,11 @@
+.mCity_scoreBoard {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background: rgb(186 226 197);
+}
+.mCity_scoreBoard span,
+.mCity_scoreBoard--answer  {
+  text-transform: uppercase;
+  font-weight: 900;
+}

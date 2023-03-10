@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# Getting Started with this project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You need to add your own REACT_APP_API_KEY from the maps javascript API in a .env file to be able to use this app in development.
 
-## Available Scripts
+## More about the App:
 
-In the project directory, you can run:
+- This project was created using react, typescript, and pure CSS.
 
-### `npm start`
+## Improvements suggested :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- It will be good to show the user the name and an image of the city they clicked on, this way it will be educational and fun.
+- Limiting the amount of time the user has to answer will also give it more of an edge.
+- Be able to find every city in the world instead of nine only in the EU 
+- Store the data in a session so the user can save their progress if they leave the site and then return.
+- Have user sessions so the user can compare their score with other users' scores.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Challenges:
 
-### `npm test`
+- the most challenging aspect of this project was to choose the proper library to work with the google maps API in react. 
+  The documentation was very limited in most of them and spent more hours doing research than actually coding.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Highlights:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- I learned a lot about how much you can personalize and manipulate the map and markers to suit your needs. 
+- After understanding the flow I realized that the maps API actually provides the developer with a great amount of data in a very simple way.

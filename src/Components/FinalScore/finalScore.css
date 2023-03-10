@@ -1,0 +1,47 @@
+.finalScore-mainContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.finalScore-section {
+ border: 2px solid rgb(87, 105, 92);;
+ width: 60%;
+ height: 200px;
+ background: rgb(186 226 197);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 10px;
+}
+
+.finalScore-section--h1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.finalScore-section--p {
+  padding: 10px;
+  font-size: 19px;
+}
+
+.finalScore-section--none{
+  font-weight: bold;
+}
+
+.finalScore-section--list {
+  list-style: none;
+  font-weight: bold;
+}
+
+.finalScore-section--score {
+  font-weight: 700;
+  color: red;
+}
+
+.finalScore-section--btn{
+  
+}
