@@ -54,7 +54,7 @@ const Map = ({cities, currentCityIndex, scoreHandler}:MapProps) => {
       >
       <GoogleMap
         mapContainerStyle={{
-          width: '70%',
+          width: '100%',
           height: '60vh'
         }}
         center={center}
