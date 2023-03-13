@@ -1,3 +1,5 @@
+# View the project: https://vercel.com/catavillalonga/city-finder
+
 # Getting Started with this project:
 
 You need to add your own REACT_APP_API_KEY from the maps javascript API in a .env file to be able to use this app in development.
